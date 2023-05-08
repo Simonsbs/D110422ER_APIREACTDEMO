@@ -1,0 +1,1102 @@
+2023-05-07 06:58:45.601 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-05-07 06:58:45.849 +03:00 [DBG] Hosting starting
+2023-05-07 06:58:45.923 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 06:58:45.932 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-109f8599-83a7-48fa-bce5-61073037adea.xml'.
+2023-05-07 06:58:45.983 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-5f04acf4-d2ab-4691-85c8-85cb632b3b87.xml'.
+2023-05-07 06:58:46.000 +03:00 [DBG] Found key {109f8599-83a7-48fa-bce5-61073037adea}.
+2023-05-07 06:58:46.012 +03:00 [DBG] Found key {5f04acf4-d2ab-4691-85c8-85cb632b3b87}.
+2023-05-07 06:58:46.027 +03:00 [DBG] Considering key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} with expiration date 2023-06-20 11:26:14Z as default key.
+2023-05-07 06:58:46.034 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 06:58:46.043 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-05-07 06:58:46.046 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 06:58:46.075 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-05-07 06:58:46.081 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-05-07 06:58:46.090 +03:00 [DBG] Using key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} as the default key.
+2023-05-07 06:58:46.093 +03:00 [DBG] Key ring with default key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} was loaded during application startup.
+2023-05-07 06:58:46.681 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 5461B0A5D1930850E3348A98D4E0BA69CC1D1ECE)
+2023-05-07 06:58:46.770 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 06:58:46.778 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 06:58:46.782 +03:00 [DBG] Loaded hosting startup assembly MyShopAPI
+2023-05-07 06:58:46.784 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-05-07 06:58:46.786 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-05-07 06:58:46.788 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 06:58:46.791 +03:00 [INF] Hosting environment: Development
+2023-05-07 06:58:46.793 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 06:58:46.795 +03:00 [DBG] Hosting started
+2023-05-07 06:58:46.993 +03:00 [DBG] Connection id "0HMQELTDT5FT1" accepted.
+2023-05-07 06:58:46.993 +03:00 [DBG] Connection id "0HMQELTDT5FT0" accepted.
+2023-05-07 06:58:47.664 +03:00 [DBG] Connection id "0HMQELTDT5FT1" started.
+2023-05-07 06:58:47.747 +03:00 [DBG] Connection id "0HMQELTDT5FT0" started.
+2023-05-07 06:58:48.453 +03:00 [DBG] Connection id "0HMQELTDT5FT2" accepted.
+2023-05-07 06:58:48.777 +03:00 [DBG] Connection id "0HMQELTDT5FT3" accepted.
+2023-05-07 06:58:48.790 +03:00 [DBG] Connection id "0HMQELTDT5FT2" started.
+2023-05-07 06:58:48.889 +03:00 [DBG] Connection id "0HMQELTDT5FT3" started.
+2023-05-07 06:58:49.068 +03:00 [DBG] Connection 0HMQELTDT5FT3 established using the following protocol: "Tls12"
+2023-05-07 06:58:49.068 +03:00 [DBG] Connection 0HMQELTDT5FT2 established using the following protocol: "Tls12"
+2023-05-07 06:58:49.309 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 06:58:49.414 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-07 06:58:49.475 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-07 06:58:49.485 +03:00 [DBG] Request did not match any endpoints
+2023-05-07 06:58:49.793 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-07 06:58:57.913 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-05-07 06:58:57.913 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-05-07 06:58:57.918 +03:00 [DBG] Connection id "0HMQELTDT5FT1" stopped.
+2023-05-07 06:58:57.918 +03:00 [DBG] Connection id "0HMQELTDT5FT0" stopped.
+2023-05-07 06:58:57.922 +03:00 [DBG] Connection id "0HMQELTDT5FT1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-07 06:58:57.923 +03:00 [DBG] Connection id "0HMQELTDT5FT0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-07 06:59:02.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 06:59:02.257 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-07 06:59:02.260 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 9.3378ms
+2023-05-07 06:59:02.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 12968.0448ms
+2023-05-07 06:59:04.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 06:59:04.603 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.6149ms
+2023-05-07 06:59:15.645 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 06:59:15.647 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-05-07 06:59:15.650 +03:00 [DBG] Request did not match any endpoints
+2023-05-07 06:59:15.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 279.0492ms
+2023-05-07 06:59:53.925 +03:00 [DBG] Connection id "0HMQELTDT5FT3" received FIN.
+2023-05-07 06:59:53.932 +03:00 [DBG] Connection id "0HMQELTDT5FT3" is closed. The last processed stream ID was 0.
+2023-05-07 06:59:53.935 +03:00 [DBG] Connection id "0HMQELTDT5FT3" sending FIN because: "The client closed the connection."
+2023-05-07 06:59:53.951 +03:00 [DBG] Connection id "0HMQELTDT5FT3" stopped.
+2023-05-07 06:59:59.899 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json-patch+json 47
+2023-05-07 06:59:59.917 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication'
+2023-05-07 06:59:59.931 +03:00 [DBG] Endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)' with route pattern 'api/Authentication' is valid for the request path '/api/Authentication'
+2023-05-07 06:59:59.935 +03:00 [DBG] Request matched endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 06:59:59.938 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-05-07 07:00:00.083 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-05-07 07:00:00.086 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 07:00:00.117 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Controllers.AuthenticationController (MyShopAPI).
+2023-05-07 07:00:00.126 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-07 07:00:00.129 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-05-07 07:00:00.131 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-05-07 07:00:00.136 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-07 07:00:00.138 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-05-07 07:00:00.144 +03:00 [DBG] Executing controller factory for controller MyShopAPI.Controllers.AuthenticationController (MyShopAPI)
+2023-05-07 07:00:00.312 +03:00 [DBG] Executed controller factory for controller MyShopAPI.Controllers.AuthenticationController (MyShopAPI)
+2023-05-07 07:00:00.335 +03:00 [DBG] Attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication' ...
+2023-05-07 07:00:00.342 +03:00 [DBG] Attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication' using the name '' in request data ...
+2023-05-07 07:00:00.345 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-05-07 07:00:00.348 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-05-07 07:00:00.372 +03:00 [DBG] Connection id "0HMQELTDT5FT2", Request id "0HMQELTDT5FT2:00000009": started reading request body.
+2023-05-07 07:00:00.376 +03:00 [DBG] Connection id "0HMQELTDT5FT2", Request id "0HMQELTDT5FT2:00000009": done reading request body.
+2023-05-07 07:00:00.573 +03:00 [DBG] Done attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication'.
+2023-05-07 07:00:00.579 +03:00 [DBG] Done attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication'.
+2023-05-07 07:00:00.581 +03:00 [DBG] Attempting to validate the bound parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication' ...
+2023-05-07 07:00:00.596 +03:00 [DBG] Done attempting to validate the bound parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication'.
+2023-05-07 07:00:03.071 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-05-07 07:00:03.081 +03:00 [DBG] No information found on request to perform content negotiation.
+2023-05-07 07:00:03.082 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-07 07:00:03.084 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-07 07:00:03.086 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-05-07 07:00:03.088 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 07:00:03.096 +03:00 [INF] Executed action MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI) in 2946.3076ms
+2023-05-07 07:00:03.098 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 07:00:03.100 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json-patch+json 47 - 200 - text/plain;+charset=utf-8 3200.5576ms
+2023-05-07 07:02:22.277 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-05-07 07:02:22.817 +03:00 [DBG] Hosting starting
+2023-05-07 07:02:23.037 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 07:02:23.045 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-109f8599-83a7-48fa-bce5-61073037adea.xml'.
+2023-05-07 07:02:23.054 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-5f04acf4-d2ab-4691-85c8-85cb632b3b87.xml'.
+2023-05-07 07:02:23.069 +03:00 [DBG] Found key {109f8599-83a7-48fa-bce5-61073037adea}.
+2023-05-07 07:02:23.079 +03:00 [DBG] Found key {5f04acf4-d2ab-4691-85c8-85cb632b3b87}.
+2023-05-07 07:02:23.094 +03:00 [DBG] Considering key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} with expiration date 2023-06-20 11:26:14Z as default key.
+2023-05-07 07:02:23.110 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 07:02:23.119 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-05-07 07:02:23.123 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 07:02:23.135 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-05-07 07:02:23.141 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-05-07 07:02:23.147 +03:00 [DBG] Using key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} as the default key.
+2023-05-07 07:02:23.150 +03:00 [DBG] Key ring with default key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} was loaded during application startup.
+2023-05-07 07:02:23.574 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 5461B0A5D1930850E3348A98D4E0BA69CC1D1ECE)
+2023-05-07 07:02:23.694 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 07:02:23.696 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 07:02:23.698 +03:00 [DBG] Loaded hosting startup assembly MyShopAPI
+2023-05-07 07:02:23.703 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-05-07 07:02:23.705 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-05-07 07:02:23.708 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 07:02:23.710 +03:00 [INF] Hosting environment: Development
+2023-05-07 07:02:23.713 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 07:02:23.717 +03:00 [DBG] Hosting started
+2023-05-07 07:02:23.800 +03:00 [DBG] Connection id "0HMQELVEGSN0M" received FIN.
+2023-05-07 07:02:23.824 +03:00 [DBG] Connection id "0HMQELVEGSN0M" accepted.
+2023-05-07 07:02:23.830 +03:00 [DBG] Connection id "0HMQELVEGSN0M" started.
+2023-05-07 07:02:23.863 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-05-07 07:02:24.062 +03:00 [DBG] Connection id "0HMQELVEGSN0M" stopped.
+2023-05-07 07:02:24.074 +03:00 [DBG] Connection id "0HMQELVEGSN0M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-07 07:02:24.493 +03:00 [DBG] Connection id "0HMQELVEGSN0N" accepted.
+2023-05-07 07:02:24.497 +03:00 [DBG] Connection id "0HMQELVEGSN0N" started.
+2023-05-07 07:02:24.623 +03:00 [DBG] Connection 0HMQELVEGSN0N established using the following protocol: "Tls12"
+2023-05-07 07:02:24.734 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 07:02:24.807 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-07 07:02:24.852 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-07 07:02:24.858 +03:00 [DBG] Request did not match any endpoints
+2023-05-07 07:02:25.111 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-07 07:02:25.495 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-07 07:02:25.526 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 07:02:25.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 805.7067ms
+2023-05-07 07:02:25.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 33.0996ms
+2023-05-07 07:02:25.727 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 07:02:25.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.8895ms
+2023-05-07 07:02:26.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 07:02:26.921 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-05-07 07:02:26.932 +03:00 [DBG] Request did not match any endpoints
+2023-05-07 07:02:27.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 273.2978ms
+2023-05-07 08:33:46.362 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-05-07 08:33:46.624 +03:00 [DBG] Hosting starting
+2023-05-07 08:33:46.670 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 08:33:46.675 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-109f8599-83a7-48fa-bce5-61073037adea.xml'.
+2023-05-07 08:33:46.683 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-5f04acf4-d2ab-4691-85c8-85cb632b3b87.xml'.
+2023-05-07 08:33:46.694 +03:00 [DBG] Found key {109f8599-83a7-48fa-bce5-61073037adea}.
+2023-05-07 08:33:46.704 +03:00 [DBG] Found key {5f04acf4-d2ab-4691-85c8-85cb632b3b87}.
+2023-05-07 08:33:46.721 +03:00 [DBG] Considering key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} with expiration date 2023-06-20 11:26:14Z as default key.
+2023-05-07 08:33:46.730 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 08:33:46.740 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-05-07 08:33:46.743 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 08:33:46.752 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-05-07 08:33:46.758 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-05-07 08:33:46.763 +03:00 [DBG] Using key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} as the default key.
+2023-05-07 08:33:46.767 +03:00 [DBG] Key ring with default key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} was loaded during application startup.
+2023-05-07 08:33:47.073 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 5461B0A5D1930850E3348A98D4E0BA69CC1D1ECE)
+2023-05-07 08:33:47.170 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 08:33:47.173 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 08:33:47.175 +03:00 [DBG] Loaded hosting startup assembly MyShopAPI
+2023-05-07 08:33:47.178 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-05-07 08:33:47.179 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-05-07 08:33:47.182 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 08:33:47.183 +03:00 [INF] Hosting environment: Development
+2023-05-07 08:33:47.185 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 08:33:47.187 +03:00 [DBG] Hosting started
+2023-05-07 08:33:47.606 +03:00 [DBG] Connection id "0HMQENIGQGFV2" accepted.
+2023-05-07 08:33:47.608 +03:00 [DBG] Connection id "0HMQENIGQGFV2" started.
+2023-05-07 08:33:47.626 +03:00 [DBG] Connection id "0HMQENIGQGFV2" received FIN.
+2023-05-07 08:33:47.653 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-05-07 08:33:47.720 +03:00 [DBG] Connection id "0HMQENIGQGFV2" stopped.
+2023-05-07 08:33:47.726 +03:00 [DBG] Connection id "0HMQENIGQGFV2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-07 08:33:48.169 +03:00 [DBG] Connection id "0HMQENIGQGFV3" accepted.
+2023-05-07 08:33:48.183 +03:00 [DBG] Connection id "0HMQENIGQGFV3" started.
+2023-05-07 08:33:48.293 +03:00 [DBG] Connection 0HMQENIGQGFV3 established using the following protocol: "Tls12"
+2023-05-07 08:33:48.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 08:33:48.451 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-07 08:33:48.485 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-07 08:33:48.487 +03:00 [DBG] Request did not match any endpoints
+2023-05-07 08:34:11.987 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-05-07 08:34:12.227 +03:00 [DBG] Hosting starting
+2023-05-07 08:34:12.285 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 08:34:12.292 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-109f8599-83a7-48fa-bce5-61073037adea.xml'.
+2023-05-07 08:34:12.303 +03:00 [DBG] Reading data from file 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys\key-5f04acf4-d2ab-4691-85c8-85cb632b3b87.xml'.
+2023-05-07 08:34:12.312 +03:00 [DBG] Found key {109f8599-83a7-48fa-bce5-61073037adea}.
+2023-05-07 08:34:12.322 +03:00 [DBG] Found key {5f04acf4-d2ab-4691-85c8-85cb632b3b87}.
+2023-05-07 08:34:12.336 +03:00 [DBG] Considering key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} with expiration date 2023-06-20 11:26:14Z as default key.
+2023-05-07 08:34:12.340 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 08:34:12.345 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-05-07 08:34:12.348 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-05-07 08:34:12.358 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-05-07 08:34:12.363 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-05-07 08:34:12.369 +03:00 [DBG] Using key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} as the default key.
+2023-05-07 08:34:12.372 +03:00 [DBG] Key ring with default key {5f04acf4-d2ab-4691-85c8-85cb632b3b87} was loaded during application startup.
+2023-05-07 08:34:12.700 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 5461B0A5D1930850E3348A98D4E0BA69CC1D1ECE)
+2023-05-07 08:34:12.798 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 08:34:12.804 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 08:34:12.808 +03:00 [DBG] Loaded hosting startup assembly MyShopAPI
+2023-05-07 08:34:12.812 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-05-07 08:34:12.820 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-05-07 08:34:12.823 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 08:34:12.825 +03:00 [INF] Hosting environment: Development
+2023-05-07 08:34:12.831 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 08:34:12.840 +03:00 [DBG] Hosting started
+2023-05-07 08:34:13.128 +03:00 [DBG] Connection id "0HMQENIODTE9O" accepted.
+2023-05-07 08:34:13.130 +03:00 [DBG] Connection id "0HMQENIODTE9O" started.
+2023-05-07 08:34:13.139 +03:00 [DBG] Connection id "0HMQENIODTE9O" received FIN.
+2023-05-07 08:34:13.151 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-05-07 08:34:13.203 +03:00 [DBG] Connection id "0HMQENIODTE9O" stopped.
+2023-05-07 08:34:13.206 +03:00 [DBG] Connection id "0HMQENIODTE9O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-07 08:34:13.646 +03:00 [DBG] Connection id "0HMQENIODTE9P" accepted.
+2023-05-07 08:34:13.673 +03:00 [DBG] Connection id "0HMQENIODTE9P" started.
+2023-05-07 08:34:13.821 +03:00 [DBG] Connection 0HMQENIODTE9P established using the following protocol: "Tls12"
+2023-05-07 08:34:13.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 08:34:14.056 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-07 08:34:14.120 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-07 08:34:14.134 +03:00 [DBG] Request did not match any endpoints
+2023-05-07 08:34:14.332 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-05-07 08:34:14.593 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-05-07 08:34:14.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 08:34:14.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 649.6885ms
+2023-05-07 08:34:14.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 29.3653ms
+2023-05-07 08:34:14.795 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 08:34:14.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 118.8826ms
+2023-05-07 08:34:15.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 08:34:15.817 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-05-07 08:34:15.819 +03:00 [DBG] Request did not match any endpoints
+2023-05-07 08:34:16.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.4714ms
+2023-05-07 08:34:29.307 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json-patch+json 47
+2023-05-07 08:34:29.318 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication'
+2023-05-07 08:34:29.330 +03:00 [DBG] Endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)' with route pattern 'api/Authentication' is valid for the request path '/api/Authentication'
+2023-05-07 08:34:29.332 +03:00 [DBG] Request matched endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:34:29.337 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-05-07 08:34:29.412 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-05-07 08:34:29.417 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:34:29.450 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Controllers.AuthenticationController (MyShopAPI).
+2023-05-07 08:34:29.455 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-07 08:34:29.457 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-05-07 08:34:29.459 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-05-07 08:34:29.462 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-07 08:34:29.463 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-05-07 08:34:29.466 +03:00 [DBG] Executing controller factory for controller MyShopAPI.Controllers.AuthenticationController (MyShopAPI)
+2023-05-07 08:34:29.666 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-07 08:34:29.701 +03:00 [DBG] Executed controller factory for controller MyShopAPI.Controllers.AuthenticationController (MyShopAPI)
+2023-05-07 08:34:29.715 +03:00 [DBG] Attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication' ...
+2023-05-07 08:34:29.722 +03:00 [DBG] Attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication' using the name '' in request data ...
+2023-05-07 08:34:29.726 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-05-07 08:34:29.729 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-05-07 08:34:29.749 +03:00 [DBG] Connection id "0HMQENIODTE9P", Request id "0HMQENIODTE9P:00000009": started reading request body.
+2023-05-07 08:34:29.754 +03:00 [DBG] Connection id "0HMQENIODTE9P", Request id "0HMQENIODTE9P:00000009": done reading request body.
+2023-05-07 08:34:29.893 +03:00 [DBG] Done attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication'.
+2023-05-07 08:34:29.895 +03:00 [DBG] Done attempting to bind parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication'.
+2023-05-07 08:34:29.897 +03:00 [DBG] Attempting to validate the bound parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication' ...
+2023-05-07 08:34:29.907 +03:00 [DBG] Done attempting to validate the bound parameter 'userAuthentication' of type 'MyShopAPI.Controllers.UserAuthentication'.
+2023-05-07 08:34:30.736 +03:00 [DBG] Entity Framework Core 7.0.4 initialized 'MyShopContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.4' with options: None
+2023-05-07 08:34:30.831 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Username == __userName_0 && u.Password == __password_1)'
+2023-05-07 08:34:31.304 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.ID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Password (string) Required, 1], [Property: User.Username (string) Required, 2] }
+        SELECT TOP(1) u.ID, u.Password, u.Username
+        FROM Users AS u
+        WHERE (u.Username == @__userName_0) && (u.Password == @__password_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    MyShopAPI.Contexts.MyShopContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-05-07 08:34:31.390 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-05-07 08:34:31.395 +03:00 [DBG] Creating DbConnection.
+2023-05-07 08:34:31.441 +03:00 [DBG] Created DbConnection. (43ms).
+2023-05-07 08:34:31.452 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (58ms).
+2023-05-07 08:34:31.464 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (75ms).
+2023-05-07 08:34:31.472 +03:00 [DBG] Opening connection to database 'MyShop' on server '.\SQLEXPRESS02'.
+2023-05-07 08:34:31.880 +03:00 [DBG] Opened connection to database 'MyShop' on server '.\SQLEXPRESS02'.
+2023-05-07 08:34:31.903 +03:00 [DBG] Executing DbCommand [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 08:34:32.014 +03:00 [INF] Executed DbCommand (117ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 08:34:32.079 +03:00 [DBG] Context 'MyShopContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-07 08:34:32.112 +03:00 [DBG] Closing data reader to 'MyShop' on server '.\SQLEXPRESS02'.
+2023-05-07 08:34:32.132 +03:00 [DBG] A data reader for 'MyShop' on server '.\SQLEXPRESS02' is being disposed after spending 98ms reading results.
+2023-05-07 08:34:32.141 +03:00 [DBG] Closing connection to database 'MyShop' on server '.\SQLEXPRESS02'.
+2023-05-07 08:34:32.156 +03:00 [DBG] Closed connection to database 'MyShop' on server '.\SQLEXPRESS02' (13ms).
+2023-05-07 08:34:32.305 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-05-07 08:34:32.313 +03:00 [DBG] No information found on request to perform content negotiation.
+2023-05-07 08:34:32.314 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-05-07 08:34:32.315 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-05-07 08:34:32.318 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-05-07 08:34:32.321 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 08:34:32.329 +03:00 [INF] Executed action MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI) in 2857.503ms
+2023-05-07 08:34:32.331 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:34:32.337 +03:00 [DBG] 'MyShopContext' disposed.
+2023-05-07 08:34:32.360 +03:00 [DBG] Disposing connection to database 'MyShop' on server '.\SQLEXPRESS02'.
+2023-05-07 08:34:32.364 +03:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2023-05-07 08:34:32.366 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json-patch+json 47 - 200 - text/plain;+charset=utf-8 3058.7869ms
+2023-05-07 08:38:14.626 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 08:38:15.179 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 08:38:15.186 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 08:38:15.192 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 08:38:15.194 +03:00 [INF] Hosting environment: Development
+2023-05-07 08:38:15.198 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 08:38:16.384 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 08:38:16.903 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 08:38:16.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 535.1944ms
+2023-05-07 08:38:16.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 60.4875ms
+2023-05-07 08:38:17.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 08:38:17.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 313.1725ms
+2023-05-07 08:38:18.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 08:38:18.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 195.0482ms
+2023-05-07 08:39:03.561 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json-patch+json 50
+2023-05-07 08:39:03.649 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:39:03.683 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 08:39:06.111 +03:00 [INF] Executed DbCommand (99ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 08:39:06.172 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 08:39:06.243 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2552.8925ms
+2023-05-07 08:39:06.246 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:39:06.263 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json-patch+json 50 - 401 162 application/problem+json;+charset=utf-8 2703.8371ms
+2023-05-07 08:39:58.352 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Authentication application/json 50
+2023-05-07 08:39:58.355 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-05-07 08:39:58.357 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-05-07 08:39:58.359 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Authentication application/json 50 - 405 0 - 6.6709ms
+2023-05-07 08:40:19.072 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 50
+2023-05-07 08:40:19.077 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:40:19.079 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 08:40:19.124 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 08:40:19.332 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 08:40:19.334 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 249.9456ms
+2023-05-07 08:40:19.337 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:40:19.340 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 50 - 200 - text/plain;+charset=utf-8 267.8126ms
+2023-05-07 08:41:33.947 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:41:34.053 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:41:34.063 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:41:34.226 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+2023-05-07 08:41:34.266 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.User, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:41:34.283 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 215.2681ms
+2023-05-07 08:41:34.289 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:41:34.295 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 47 application/json;+charset=utf-8 347.6063ms
+2023-05-07 08:43:09.522 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:43:09.524 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:43:09.525 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:43:09.538 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+2023-05-07 08:43:09.548 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.User, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:43:09.550 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 15.6565ms
+2023-05-07 08:43:09.552 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:43:09.554 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 47 application/json;+charset=utf-8 31.8710ms
+2023-05-07 08:43:17.920 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 08:43:18.404 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 08:43:18.417 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 08:43:18.423 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 08:43:18.425 +03:00 [INF] Hosting environment: Development
+2023-05-07 08:43:18.428 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 08:43:19.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 08:43:20.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 726.4932ms
+2023-05-07 08:43:20.421 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 08:43:20.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 75.2925ms
+2023-05-07 08:43:20.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 08:43:20.705 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 117.7086ms
+2023-05-07 08:43:21.731 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 08:43:21.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 252.3270ms
+2023-05-07 08:43:28.503 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:43:28.930 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:43:28.963 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:43:31.155 +03:00 [INF] Executed DbCommand (119ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:43:31.250 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:43:31.388 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 2416.542ms
+2023-05-07 08:43:31.392 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:43:31.427 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 2 application/json;+charset=utf-8 2924.4623ms
+2023-05-07 08:45:03.191 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:45:03.195 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:45:03.202 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:45:03.230 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:45:03.311 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:45:03.334 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 128.262ms
+2023-05-07 08:45:03.335 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:45:03.339 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 150.0147ms
+2023-05-07 08:46:11.874 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 50
+2023-05-07 08:46:11.878 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:46:11.892 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 08:46:12.308 +03:00 [INF] Executed DbCommand (50ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 08:46:12.345 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 08:46:12.348 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 448.9222ms
+2023-05-07 08:46:12.351 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 08:46:12.355 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 50 - 200 - text/plain;+charset=utf-8 481.0967ms
+2023-05-07 08:48:04.455 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:48:04.460 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:04.462 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:48:04.470 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:48:04.476 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:48:04.480 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 12.7142ms
+2023-05-07 08:48:04.481 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:04.483 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 29.7841ms
+2023-05-07 08:48:07.301 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:48:07.304 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:07.308 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:48:07.328 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:48:07.337 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:48:07.341 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 20.6569ms
+2023-05-07 08:48:07.345 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:07.347 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 45.4628ms
+2023-05-07 08:48:16.920 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:48:16.930 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:16.931 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:48:16.945 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:48:16.958 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:48:16.963 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 25.0798ms
+2023-05-07 08:48:16.968 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:16.973 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 53.1906ms
+2023-05-07 08:48:49.260 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 08:48:49.787 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 08:48:49.789 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 08:48:49.797 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 08:48:49.800 +03:00 [INF] Hosting environment: Development
+2023-05-07 08:48:49.802 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 08:48:51.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 08:48:51.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 859.4338ms
+2023-05-07 08:48:52.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 08:48:52.178 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 128.9483ms
+2023-05-07 08:48:52.297 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 08:48:52.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 90.4208ms
+2023-05-07 08:48:53.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 08:48:53.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 201.1432ms
+2023-05-07 08:48:55.853 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:48:56.321 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:56.359 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:48:58.259 +03:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:48:58.409 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:48:58.556 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 2186.6676ms
+2023-05-07 08:48:58.564 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:48:58.596 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 2742.9140ms
+2023-05-07 08:49:01.492 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:49:01.498 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:49:01.499 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:49:01.510 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:49:01.515 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:49:01.518 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 16.2599ms
+2023-05-07 08:49:01.521 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:49:01.523 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 31.4708ms
+2023-05-07 08:51:29.177 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:51:29.190 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-05-07 08:51:29.223 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-05-07 08:51:29.226 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-07 08:51:29.238 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-07 08:51:29.240 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 401 0 - 65.0309ms
+2023-05-07 08:51:45.409 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:51:45.417 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:51:45.419 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:51:45.479 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:51:45.482 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:51:45.484 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 54.8797ms
+2023-05-07 08:51:45.485 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:51:45.493 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 83.6073ms
+2023-05-07 08:52:16.245 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products/1 - -
+2023-05-07 08:52:16.247 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.Get (MyShopAPI)'
+2023-05-07 08:52:16.271 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(Int32) on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:52:16.598 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+WHERE [p].[ID] = @__p_0
+2023-05-07 08:52:16.604 +03:00 [INF] Executing OkObjectResult, writing value of type 'MyShopAPI.Models.Product'.
+2023-05-07 08:52:16.606 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.Get (MyShopAPI) in 329.4806ms
+2023-05-07 08:52:16.608 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.Get (MyShopAPI)'
+2023-05-07 08:52:16.610 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products/1 - - - 200 55 application/json;+charset=utf-8 365.8328ms
+2023-05-07 08:53:25.982 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Products application/json 55
+2023-05-07 08:53:25.984 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.Insert (MyShopAPI)'
+2023-05-07 08:53:25.987 +03:00 [INF] Route matched with {action = "Insert", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Insert(MyShopAPI.Models.Product) on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:53:26.318 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name])
+OUTPUT INSERTED.[ID]
+VALUES (@p0, @p1);
+2023-05-07 08:53:26.370 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'MyShopAPI.Models.Product'.
+2023-05-07 08:53:26.399 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.Insert (MyShopAPI) in 401.4974ms
+2023-05-07 08:53:26.400 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.Insert (MyShopAPI)'
+2023-05-07 08:53:26.403 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Products application/json 55 - 201 50 application/json;+charset=utf-8 420.0366ms
+2023-05-07 08:53:31.954 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:53:31.956 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:53:31.968 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:53:31.984 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:53:31.994 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:53:31.999 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 18.4343ms
+2023-05-07 08:53:32.001 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:53:32.003 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 108 application/json;+charset=utf-8 49.4751ms
+2023-05-07 08:54:37.685 +03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7175/api/Products application/json 73
+2023-05-07 08:54:37.693 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.Update (MyShopAPI)'
+2023-05-07 08:54:37.698 +03:00 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(MyShopAPI.Models.Product) on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:54:37.762 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__item_ID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p]
+        WHERE [p].[ID] = @__item_ID_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-05-07 08:54:37.804 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1
+OUTPUT 1
+WHERE [ID] = @p2;
+2023-05-07 08:54:37.820 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-05-07 08:54:37.821 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.Update (MyShopAPI) in 117.8129ms
+2023-05-07 08:54:37.823 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.Update (MyShopAPI)'
+2023-05-07 08:54:37.825 +03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7175/api/Products application/json 73 - 204 - - 139.2674ms
+2023-05-07 08:55:09.304 +03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7175/api/Products/2 - 0
+2023-05-07 08:55:09.306 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-05-07 08:55:09.308 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-05-07 08:55:09.314 +03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7175/api/Products/2 - 0 - 405 0 - 9.9173ms
+2023-05-07 08:55:19.232 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7175/api/Products/2 - -
+2023-05-07 08:55:19.234 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.Delete (MyShopAPI)'
+2023-05-07 08:55:19.238 +03:00 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Delete(Int32) on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:55:19.253 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+WHERE [p].[ID] = @__p_0
+2023-05-07 08:55:19.286 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Products]
+OUTPUT 1
+WHERE [ID] = @p0;
+2023-05-07 08:55:19.294 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-05-07 08:55:19.296 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.Delete (MyShopAPI) in 54.2244ms
+2023-05-07 08:55:19.301 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.Delete (MyShopAPI)'
+2023-05-07 08:55:19.303 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7175/api/Products/2 - - - 204 - - 71.1896ms
+2023-05-07 08:55:24.245 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/Products - -
+2023-05-07 08:55:24.248 +03:00 [INF] Executing endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:55:24.251 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAll() on controller MyShopAPI.Controllers.ProductsController (MyShopAPI).
+2023-05-07 08:55:24.261 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[Description], [p].[Name]
+FROM [Products] AS [p]
+2023-05-07 08:55:24.273 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyShopAPI.Models.Product, MyShopAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 08:55:24.276 +03:00 [INF] Executed action MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI) in 17.7393ms
+2023-05-07 08:55:24.278 +03:00 [INF] Executed endpoint 'MyShopAPI.Controllers.ProductsController.GetAll (MyShopAPI)'
+2023-05-07 08:55:24.283 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/Products - - - 200 57 application/json;+charset=utf-8 38.4515ms
+2023-05-07 09:32:08.887 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 09:32:09.476 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 09:32:09.481 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 09:32:09.486 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 09:32:09.489 +03:00 [INF] Hosting environment: Development
+2023-05-07 09:32:09.492 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 09:32:10.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 09:32:10.981 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 628.2540ms
+2023-05-07 09:32:11.059 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 09:32:11.085 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 25.1786ms
+2023-05-07 09:32:11.193 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 09:32:11.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8212ms
+2023-05-07 09:32:12.077 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 09:32:12.264 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.5815ms
+2023-05-07 09:32:15.019 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 09:32:15.138 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:32:15.168 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 09:32:15.430 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 09:32:15.625 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 448.2633ms
+2023-05-07 09:32:15.646 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:32:15.656 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 637.1216ms
+2023-05-07 09:32:29.125 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 09:32:29.148 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:32:29.154 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 09:32:29.176 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 09:32:29.179 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 15.3338ms
+2023-05-07 09:32:29.187 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:32:29.191 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 66.3463ms
+2023-05-07 09:34:55.177 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 09:34:55.194 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:34:55.196 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 09:34:55.221 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 09:34:55.226 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 6.1841ms
+2023-05-07 09:34:55.231 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:34:55.242 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 65.6577ms
+2023-05-07 09:34:56.792 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 09:34:56.811 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:34:56.815 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 09:34:56.821 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 09:34:56.823 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.0403ms
+2023-05-07 09:34:56.824 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:34:56.835 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 59.1565ms
+2023-05-07 09:34:59.039 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 09:34:59.041 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:34:59.043 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 09:34:59.053 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 09:34:59.057 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 4.5968ms
+2023-05-07 09:34:59.066 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:34:59.069 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 29.7652ms
+2023-05-07 09:39:15.016 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 09:39:15.017 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:39:15.018 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 09:39:15.021 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 09:39:15.023 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.1954ms
+2023-05-07 09:39:15.028 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 09:39:15.032 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 16.4148ms
+2023-05-07 10:21:59.982 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 10:22:00.832 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 10:22:00.841 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 10:22:00.853 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 10:22:00.856 +03:00 [INF] Hosting environment: Development
+2023-05-07 10:22:00.857 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 10:22:02.467 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 10:22:02.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 10:22:03.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 546.5053ms
+2023-05-07 10:22:03.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 14.2431ms
+2023-05-07 10:22:03.214 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 10:22:03.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.1917ms
+2023-05-07 10:22:04.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 10:22:04.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 207.5593ms
+2023-05-07 10:22:06.553 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54
+2023-05-07 10:22:06.648 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:22:06.686 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 10:22:09.280 +03:00 [INF] Executed DbCommand (77ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 10:22:09.539 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 10:22:09.549 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2853.5525ms
+2023-05-07 10:22:09.551 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:22:09.574 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54 - 200 - text/plain;+charset=utf-8 3020.8622ms
+2023-05-07 10:22:24.541 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 10:22:24.551 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:22:24.553 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 10:22:24.560 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 10:22:24.622 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 64.9352ms
+2023-05-07 10:22:24.626 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:22:24.628 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 88.4342ms
+2023-05-07 10:24:22.277 +03:00 [INF] User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-07 10:24:22.890 +03:00 [INF] Now listening on: https://localhost:7175
+2023-05-07 10:24:22.893 +03:00 [INF] Now listening on: http://localhost:5180
+2023-05-07 10:24:22.903 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 10:24:22.905 +03:00 [INF] Hosting environment: Development
+2023-05-07 10:24:22.907 +03:00 [INF] Content root path: D:\Lessons\Hacker-U\D110422ER - API\API\MyShopAPI\MyShopAPI\
+2023-05-07 10:24:23.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2023-05-07 10:24:24.554 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 672.1909ms
+2023-05-07 10:24:24.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2023-05-07 10:24:24.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 104.4846ms
+2023-05-07 10:24:24.840 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2023-05-07 10:24:24.998 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 157.8223ms
+2023-05-07 10:24:26.055 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2023-05-07 10:24:26.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.2852ms
+2023-05-07 10:24:27.142 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54
+2023-05-07 10:24:27.233 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:24:27.272 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 10:24:29.467 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 10:24:29.736 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 10:24:29.745 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2464.2928ms
+2023-05-07 10:24:29.750 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:24:29.778 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54 - 200 - text/plain;+charset=utf-8 2636.4110ms
+2023-05-07 10:24:37.405 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 10:24:37.414 +03:00 [INF] CORS policy execution successful.
+2023-05-07 10:24:37.418 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:24:37.421 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 10:24:37.426 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 10:24:37.491 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 67.6014ms
+2023-05-07 10:24:37.496 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:24:37.500 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 95.4428ms
+2023-05-07 10:25:52.317 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 10:25:52.318 +03:00 [INF] CORS policy execution successful.
+2023-05-07 10:25:52.322 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:25:52.325 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 10:25:52.330 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 10:25:52.332 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 3.8222ms
+2023-05-07 10:25:52.334 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 10:25:52.337 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 20.5150ms
+2023-05-07 11:23:45.265 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:23:45.267 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:23:45.268 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:23:45.270 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:23:45.273 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:23:45.278 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 5.1756ms
+2023-05-07 11:23:45.284 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:23:45.286 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 20.3895ms
+2023-05-07 11:24:24.433 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:24:24.435 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:24:24.436 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:24:24.439 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:24:24.442 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:24:24.446 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 5.1726ms
+2023-05-07 11:24:24.449 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:24:24.451 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 17.3749ms
+2023-05-07 11:26:22.354 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:26:22.355 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:26:22.356 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:26:22.358 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:26:22.360 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:26:22.362 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.0141ms
+2023-05-07 11:26:22.369 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:26:22.376 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 22.7053ms
+2023-05-07 11:26:25.784 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:26:25.785 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:26:25.786 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:26:25.787 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:26:25.790 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:26:25.792 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 1.8391ms
+2023-05-07 11:26:25.793 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:26:25.795 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 11.4720ms
+2023-05-07 11:26:26.787 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:26:26.788 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:26:26.789 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:26:26.791 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:26:26.793 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:26:26.795 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 1.8608ms
+2023-05-07 11:26:26.797 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:26:26.798 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 11.6083ms
+2023-05-07 11:27:23.150 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:27:23.151 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:27:23.155 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:27:23.157 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:27:23.159 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:27:23.161 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 1.8194ms
+2023-05-07 11:27:23.163 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:27:23.172 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 22.3508ms
+2023-05-07 11:27:25.090 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:27:25.091 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:27:25.092 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:27:25.094 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:27:25.096 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:27:25.098 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 1.7539ms
+2023-05-07 11:27:25.100 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:27:25.103 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 13.0623ms
+2023-05-07 11:27:25.693 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29
+2023-05-07 11:27:25.694 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:27:25.697 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:27:25.699 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:27:25.703 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:27:25.705 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.9111ms
+2023-05-07 11:27:25.707 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:27:25.708 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 29 - 415 175 application/problem+json;+charset=utf-8 15.6191ms
+2023-05-07 11:28:56.649 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:28:56.650 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:28:56.651 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:28:56.652 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:28:56.655 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:28:56.657 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.2369ms
+2023-05-07 11:28:56.664 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:28:56.667 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 18.7071ms
+2023-05-07 11:29:03.985 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:29:03.986 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:29:03.987 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:03.988 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:29:03.995 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:29:03.997 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.7849ms
+2023-05-07 11:29:03.999 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:04.005 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 20.0715ms
+2023-05-07 11:29:05.132 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:29:05.134 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:29:05.136 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:05.137 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:29:05.144 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:29:05.149 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 5.0741ms
+2023-05-07 11:29:05.153 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:05.154 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 23.2411ms
+2023-05-07 11:29:05.396 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:29:05.397 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:29:05.398 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:05.399 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:29:05.401 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:29:05.403 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 1.5523ms
+2023-05-07 11:29:05.404 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:05.408 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 12.7366ms
+2023-05-07 11:29:05.666 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:29:05.667 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:29:05.671 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:05.681 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:29:05.690 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:29:05.693 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 3.9508ms
+2023-05-07 11:29:05.696 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:05.698 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 32.0698ms
+2023-05-07 11:29:59.329 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:29:59.331 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:29:59.332 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:59.333 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:29:59.337 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:29:59.339 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.4802ms
+2023-05-07 11:29:59.343 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:29:59.347 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 17.4325ms
+2023-05-07 11:30:00.270 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:30:00.273 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:30:00.276 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:00.282 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:30:00.292 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:30:00.296 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 4.8528ms
+2023-05-07 11:30:00.300 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:00.302 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 31.7870ms
+2023-05-07 11:30:03.318 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:30:03.320 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:30:03.321 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:03.323 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:30:03.327 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:30:03.329 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.9557ms
+2023-05-07 11:30:03.331 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:03.332 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 14.5438ms
+2023-05-07 11:30:30.036 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:30:30.041 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:30:30.042 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:30.044 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:30:30.050 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:30:30.052 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.0074ms
+2023-05-07 11:30:30.054 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:30.056 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 20.5255ms
+2023-05-07 11:30:31.224 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38
+2023-05-07 11:30:31.225 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:30:31.227 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:31.229 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:30:31.232 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:30:31.235 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 2.8548ms
+2023-05-07 11:30:31.239 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:31.242 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication text/plain;charset=UTF-8 38 - 415 175 application/problem+json;+charset=utf-8 18.1998ms
+2023-05-07 11:30:58.720 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54
+2023-05-07 11:30:58.722 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:58.725 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:30:58.766 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:30:58.771 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 11:30:58.773 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 45.0535ms
+2023-05-07 11:30:58.776 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:30:58.779 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54 - 200 - text/plain;+charset=utf-8 58.4696ms
+2023-05-07 11:31:11.009 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 55
+2023-05-07 11:31:11.010 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:31:11.012 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:31:11.075 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:31:11.084 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:31:11.086 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 65.9812ms
+2023-05-07 11:31:11.088 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:31:11.090 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 55 - 401 162 application/problem+json;+charset=utf-8 81.0726ms
+2023-05-07 11:31:17.842 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54
+2023-05-07 11:31:17.843 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:31:17.845 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:31:17.859 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-05-07 11:31:17.884 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 35.1358ms
+2023-05-07 11:31:17.886 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:31:17.888 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7175/api/Authentication application/json 54 - 400 363 application/problem+json;+charset=utf-8 45.4830ms
+2023-05-07 11:32:47.172 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 11:32:47.184 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:32:47.190 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 17.9696ms
+2023-05-07 11:32:47.196 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 11:32:47.198 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:32:47.199 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:32:47.201 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:32:47.216 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:32:47.225 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 11:32:47.227 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 16.2252ms
+2023-05-07 11:32:47.232 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:32:47.241 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 44.2377ms
+2023-05-07 11:33:10.672 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 11:33:10.673 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:33:10.675 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 2.7275ms
+2023-05-07 11:33:10.676 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 11:33:10.677 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:33:10.679 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:33:10.680 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:33:10.684 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:33:10.689 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 11:33:10.690 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 6.9936ms
+2023-05-07 11:33:10.692 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:33:10.701 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 25.0997ms
+2023-05-07 11:33:27.132 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 11:33:27.134 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:33:27.135 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 2.5512ms
+2023-05-07 11:33:27.136 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 11:33:27.140 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:33:27.141 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:33:27.143 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:33:27.150 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:33:27.159 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 11:33:27.161 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 12.999ms
+2023-05-07 11:33:27.163 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:33:27.165 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 29.0247ms
+2023-05-07 11:36:56.630 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 11:36:56.634 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:36:56.635 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 6.1012ms
+2023-05-07 11:36:56.652 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 11:36:56.659 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:36:56.662 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:36:56.665 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:36:56.679 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:36:56.686 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 11:36:56.690 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 15.0176ms
+2023-05-07 11:36:56.692 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:36:56.694 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 42.2865ms
+2023-05-07 11:37:10.163 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 11:37:10.164 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:37:10.167 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 4.4817ms
+2023-05-07 11:37:10.169 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 35
+2023-05-07 11:37:10.171 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:37:10.173 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:37:10.175 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:37:10.180 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:37:10.184 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:37:10.186 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 7.9395ms
+2023-05-07 11:37:10.192 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:37:10.195 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 35 - 401 162 application/problem+json;+charset=utf-8 25.2181ms
+2023-05-07 11:38:40.005 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 11:38:40.006 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:38:40.008 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 2.3758ms
+2023-05-07 11:38:40.009 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 35
+2023-05-07 11:38:40.010 +03:00 [INF] CORS policy execution successful.
+2023-05-07 11:38:40.011 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:38:40.012 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 11:38:40.019 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 11:38:40.026 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-05-07 11:38:40.028 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 11.571ms
+2023-05-07 11:38:40.030 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 11:38:40.032 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 35 - 401 162 application/problem+json;+charset=utf-8 22.7371ms
+2023-05-07 15:51:13.401 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 15:51:13.405 +03:00 [INF] CORS policy execution successful.
+2023-05-07 15:51:13.411 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 10.2999ms
+2023-05-07 15:51:13.418 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 29
+2023-05-07 15:51:13.420 +03:00 [INF] CORS policy execution successful.
+2023-05-07 15:51:13.427 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 15:51:13.429 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 15:51:13.437 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-05-07 15:51:13.441 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 7.698ms
+2023-05-07 15:51:13.443 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 15:51:13.448 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 29 - 400 296 application/problem+json;+charset=utf-8 31.4402ms
+2023-05-07 15:51:33.368 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 15:51:33.369 +03:00 [INF] CORS policy execution successful.
+2023-05-07 15:51:33.370 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 2.6818ms
+2023-05-07 15:51:33.372 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 15:51:33.373 +03:00 [INF] CORS policy execution successful.
+2023-05-07 15:51:33.376 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 15:51:33.380 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 15:51:33.402 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 15:51:33.412 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 15:51:33.413 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 27.6385ms
+2023-05-07 15:51:33.415 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 15:51:33.416 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 44.5594ms
+2023-05-07 15:54:31.057 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 15:54:31.059 +03:00 [INF] CORS policy execution successful.
+2023-05-07 15:54:31.060 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 2.6621ms
+2023-05-07 15:54:31.063 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 15:54:31.069 +03:00 [INF] CORS policy execution successful.
+2023-05-07 15:54:31.070 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 15:54:31.072 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 15:54:31.078 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 15:54:31.085 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 15:54:31.087 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 11.9926ms
+2023-05-07 15:54:31.095 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 15:54:31.097 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 34.4562ms
+2023-05-07 16:00:54.772 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 16:00:54.785 +03:00 [INF] CORS policy execution successful.
+2023-05-07 16:00:54.789 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 16.5846ms
+2023-05-07 16:00:54.791 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 16:00:54.792 +03:00 [INF] CORS policy execution successful.
+2023-05-07 16:00:54.794 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 16:00:54.795 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 16:00:54.810 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 16:00:54.814 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 16:00:54.817 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 18.9138ms
+2023-05-07 16:00:54.824 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 16:00:54.826 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 35.2644ms
+2023-05-07 16:54:01.385 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 16:54:01.387 +03:00 [INF] CORS policy execution successful.
+2023-05-07 16:54:01.389 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 3.5139ms
+2023-05-07 16:54:01.410 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 16:54:01.415 +03:00 [INF] CORS policy execution successful.
+2023-05-07 16:54:01.416 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 16:54:01.417 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 16:54:01.428 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 16:54:01.432 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 16:54:01.433 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 13.1802ms
+2023-05-07 16:54:01.435 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 16:54:01.439 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 29.0527ms
+2023-05-07 17:00:30.699 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 17:00:30.707 +03:00 [INF] CORS policy execution successful.
+2023-05-07 17:00:30.710 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 12.1066ms
+2023-05-07 17:00:30.715 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 17:00:30.719 +03:00 [INF] CORS policy execution successful.
+2023-05-07 17:00:30.721 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 17:00:30.722 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 17:00:30.736 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 17:00:30.740 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 17:00:30.742 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 15.4572ms
+2023-05-07 17:00:30.746 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 17:00:30.750 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 36.1166ms
+2023-05-07 17:23:41.842 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7175/api/Authentication - -
+2023-05-07 17:23:41.843 +03:00 [INF] CORS policy execution successful.
+2023-05-07 17:23:41.845 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7175/api/Authentication - - - 204 - - 3.1359ms
+2023-05-07 17:23:41.847 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7175/api/Authentication application/json 38
+2023-05-07 17:23:41.848 +03:00 [INF] CORS policy execution successful.
+2023-05-07 17:23:41.849 +03:00 [INF] Executing endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 17:23:41.851 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Authenticate(MyShopAPI.Controllers.UserAuthentication) on controller MyShopAPI.Models.AuthenticationController (MyShopAPI).
+2023-05-07 17:23:41.861 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userName_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[ID], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__userName_0 AND [u].[Password] = @__password_1
+2023-05-07 17:23:41.864 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-05-07 17:23:41.866 +03:00 [INF] Executed action MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI) in 11.7887ms
+2023-05-07 17:23:41.867 +03:00 [INF] Executed endpoint 'MyShopAPI.Models.AuthenticationController.Authenticate (MyShopAPI)'
+2023-05-07 17:23:41.869 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7175/api/Authentication application/json 38 - 200 - text/plain;+charset=utf-8 22.7781ms
